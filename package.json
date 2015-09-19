@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-chat",
+  "version": "1.0.0",
+  "description": "Prosty chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Darek Dawidowicz",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^2.0.1",
+    "websockets": "^0.2.0"
+  }
+}

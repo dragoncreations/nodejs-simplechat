@@ -1,0 +1,47 @@
+html, body {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+#messages {
+    list-style:none;
+    position:absolute;
+    overflow:auto;
+    bottom:34px;
+    left:0;
+    right:0;
+    top:0;
+    margin:0;
+    padding:0;
+}
+#messages li {
+    margin:0;
+    padding:0 10px;
+}
+#messages li span {
+    font-weight:bold;
+    margin-right:5px;
+}
+#messages li div {
+    color:#999;
+    display:inline;
+}
+footer {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    height:34px;
+    background:#ccc;
+}
+input {
+    border:1px solid#919191;
+    padding:3px;
+}
+footer input {
+    margin:0;
+    position:absolute;
+    left:5px;
+    bottom:5px;
+    right:5px;
+}
